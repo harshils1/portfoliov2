@@ -135,6 +135,10 @@
   .profile-details-role {
     text-align: center;
   }
+
+  .profile-details-role h1 {
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 375px) {

@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import Typical from 'react-typical';
 import './Profile.css';
 
 export default function Profile() {
+
+  const [resume, setResume] = useState('Resumé');
+
   return (
     <div className="profile-container">
       <div className="profile-parent">
@@ -38,13 +41,13 @@ export default function Profile() {
                     />
                 </h1>
                 <span className="profile-role-tagline">
-                  and this is a place where you will get to know everything about me!
+                  and this is a place where you will get to know more about me!
                 </span>
               </span>
           </div>
           <div className="profile-options">
             <a href="resume.pdf" download="resume.pdf">  
-                    <button className='btn highlighted-btn'>Resume</button>
+                    <button className='btn highlighted-btn' onClick={() => setResume('Downloading!')}>{resume}</button>
             </a>
           </div>
         </div>

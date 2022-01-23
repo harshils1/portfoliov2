@@ -29,21 +29,15 @@
 .nav-links {
   color: white;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  /*padding: 0.5rem 1rem;*/
 }
 
 .nav-links:hover {
-  background-color: white;
   border-radius: 5px;
   text-decoration: none;
   color: black;
   transition: all 0.2s ease-out;
 }
 
-.fa-bars {
-  color: white;
-}
-
-.menu-icon {
-  display: none;
+@media screen and (max-width: 1110px) {
 }
