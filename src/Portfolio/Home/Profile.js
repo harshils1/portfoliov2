@@ -47,8 +47,8 @@ export default function Profile() {
               </span>
           </div>
           <div className="profile-options">
-            <a href="resume.pdf" download="resume.pdf">  
-                    <button className='btn highlighted-btn' onClick={() => setResume('downloading...')}>{resume}</button>
+            <a /*href="resume.pdf" download="resume.pdf"*/ target="_blank">  
+                    <button className='btn highlighted-btn' onClick={() => /*setResume('downloading...')*/ setResume('coming soon..')}>{resume}</button>
             </a>
           </div>
         </div>
