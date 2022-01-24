@@ -11,15 +11,15 @@ export default function Profile() {
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
-          <div className="colz"> 
+          <div className="colz">  
             <div className="colz-icon">
-            <a href="https://www.instagram.com/__harshilshah/?hl=en">
+            <a href="https://www.instagram.com/__harshilshah/?hl=en" target="_blank">
               <i className="fa fa-instagram"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/harshils1/">
+            </a> 
+            <a href="https://www.linkedin.com/in/harshils1/" target="_blank">
               <i className="fa fa-linkedin"></i>
             </a>
-            <a href="https://github.com/harshils1">
+            <a href="https://github.com/harshils1" target="_blank">
               <i className="fa fa-github"></i>
             </a>
             </div>
@@ -33,11 +33,11 @@ export default function Profile() {
               <span className="primary-text">
                 <h1>
                     <Typical
-                    loop ={Infinity}
+                    loop = {Infinity}
                     steps={[
-                        "tech enthusiast", 1000,
-                        "software developer", 1000,
-                        "designer", 1000,                    
+                        "tech enthusiast", 2000,
+                        "software developer", 2000,
+                        "designer", 2000,                    
                       ]}
                     />
                 </h1>
@@ -48,7 +48,7 @@ export default function Profile() {
           </div>
           <div className="profile-options">
             <a /*href="resume.pdf" download="resume.pdf"*/ target="_blank">  
-                    <button className='btn highlighted-btn' onClick={() => /*setResume('downloading...')*/ setResume('coming soon..')}>{resume}</button>
+                    <button className='btn highlighted-btn' onClick={() => /*setResume('downloading...')*/ setResume('coming soon...')}>{resume}</button>
             </a>
           </div>
         </div>
