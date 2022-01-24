@@ -66,6 +66,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    list-style-type: none;
   }
 
   .nav-links {
@@ -75,30 +76,18 @@
     display: table;
   }
 
+  .navbar-logo {
+    position: absolute;
+  }
+
   .menu-icon {
+    color: white;
     display: block;
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 60%);
+    transform: translate(-100%, 55%);
     font-size: 1.8rem;
     cursor: pointer;
   }
 }
-
-/*@media screen and (max-width: 810px) {
-  .NavbarItems {
-  }
-
-  .nav-links {
-    display: none;
-  }
-
-  .navbar-logo {
-    justify-content: center;
-    grid-template-columns: none;
-    grid-gap: 0px;
-    text-align: center;
-    margin-right: none;
-  }
-}*/

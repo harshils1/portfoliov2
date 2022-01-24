@@ -5,6 +5,7 @@ import './Profile.css';
 export default function Profile() {
 
   const [resume, setResume] = useState('resumé');
+  const[pic, setPic] = useState(false);
 
   return (
     <div className="profile-container">
@@ -51,8 +52,8 @@ export default function Profile() {
             </a>
           </div>
         </div>
-        <div className='profile-picture'>
-          <div className='profile-picture-background'></div>
+        <div className='profile-picture' onClick={() => setPic(!pic)} >
+          <div className={pic ? 'pic2' : 'profile-picture-background'}></div>
         </div>
       </div>
     </div>
