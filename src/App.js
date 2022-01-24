@@ -1,14 +1,12 @@
 import './App.css';
-import Profile from './Portfolio/Home/Profile';
 import Navbar from './Portfolio/Navbar/Navbar';
-import AboutMe from './Portfolio/AboutMe/AboutMe'
+import Profile from './Portfolio/Home/Profile';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <Profile/>
-      <AboutMe/>
     </div>
   );
 }

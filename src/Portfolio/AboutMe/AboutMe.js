@@ -5,7 +5,6 @@ export default function AboutMe() {
         <div className='about-container'>
             <div className='about-parent'>
                 <div className='about-details'>
-                    
                 </div>
             </div>
        </div>

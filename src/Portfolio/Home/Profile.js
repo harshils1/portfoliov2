@@ -4,13 +4,13 @@ import './Profile.css';
 
 export default function Profile() {
 
-  const [resume, setResume] = useState('Resumé');
+  const [resume, setResume] = useState('resumé');
 
   return (
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
-          <div className="colz">
+          <div className="colz"> 
             <div className="colz-icon">
             <a href="https://www.instagram.com/__harshilshah/?hl=en">
               <i className="fa fa-instagram"></i>
@@ -47,7 +47,7 @@ export default function Profile() {
           </div>
           <div className="profile-options">
             <a href="resume.pdf" download="resume.pdf">  
-                    <button className='btn highlighted-btn' onClick={() => setResume('Downloading!')}>{resume}</button>
+                    <button className='btn highlighted-btn' onClick={() => setResume('downloading...')}>{resume}</button>
             </a>
           </div>
         </div>
