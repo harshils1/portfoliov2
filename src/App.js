@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from "./Portfolio/Navbar/Navbar";
 import Profile from "./Portfolio/Home/Profile";
 import AboutMe from "./Portfolio/AboutMe/AboutMe";
@@ -23,4 +24,3 @@ function App() {
 }
 
 export default App;
-/*    import 'bootstrap/dist/css/bootstrap.min.css' */
