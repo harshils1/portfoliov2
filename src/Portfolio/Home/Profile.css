@@ -75,6 +75,10 @@
   transition: all 0.2s ease-out;
 }
 
+.profile-picture-background:hover {
+  opacity: 0.8;
+}
+
 .pic2 {
   height: 92%;
   width: 92%;
@@ -85,6 +89,10 @@
   border: 5px solid white;
   cursor: pointer;
   transition: all 0.2s ease-out;
+}
+
+.pic2:hover {
+  opacity: 0.8;
 }
 
 .colz .colz-icon i {

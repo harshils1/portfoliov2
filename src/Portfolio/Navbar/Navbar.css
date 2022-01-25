@@ -7,11 +7,17 @@
   font-size: 1.2rem;
 }
 
-.navbar-logo {
-  color: white;
+.navbar-logo a {
+  text-decoration: none;
   justify-self: flex-start;
   margin-left: 20px;
   cursor: pointer;
+  color: white;
+}
+
+.navbar-logo a:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .nav-menu {
