@@ -1,7 +1,7 @@
 export const MenuItems = [
     {
         title: 'about me',
-        url: './Portfolio/AboutMe/AboutMe',
+        url: './aboutme',
         cName: 'nav-links'
     },
     {
