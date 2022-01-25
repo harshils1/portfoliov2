@@ -139,6 +139,14 @@
     justify-content: center;
   }
 
+  .profile-picture-background:hover {
+    opacity: 1;
+  }
+
+  .pic2:hover {
+    opacity: 1;
+  }
+
   .profile-parent {
     flex-direction: column-reverse;
     margin: 40px 0 0 0;
