@@ -23,3 +23,4 @@ function App() {
 }
 
 export default App;
+/*    import 'bootstrap/dist/css/bootstrap.min.css' */

@@ -11,3 +11,23 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.project-details {
+  color: black;
+  display: grid;
+  display: flex;
+  grid-template-columns: 1 1 1;
+  column-gap: 40px;
+}
+
+.project-details:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+  .project-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
