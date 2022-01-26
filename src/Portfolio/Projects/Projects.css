@@ -33,8 +33,9 @@
     display: flex;
     flex-direction: column;
     row-gap: 25px;
-    min-height: max-content;
+    min-height: min-content;
     background-size: cover;
+    margin-top: 15%;
     border-image-repeat: repeat;
   }
 }
