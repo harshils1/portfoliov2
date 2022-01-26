@@ -12,6 +12,10 @@
   background-repeat: no-repeat;
 }
 
+.card {
+  border-radius: 30px;
+}
+
 .project-details {
   color: black;
   display: grid;
