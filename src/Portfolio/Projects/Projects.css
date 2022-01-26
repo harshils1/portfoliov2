@@ -5,7 +5,7 @@
   justify-content: center;
   min-height: fit-content;
   height: 85.2vh;
-  max-height: max-content;
+  max-height: 100%;
   background-size: cover;
   background-image: url("../../assets//Home/home.jpg");
   background-position: center;
@@ -50,27 +50,27 @@
     display: flex;
     flex-direction: column;
     row-gap: 25px;
-    min-height: min-content;
+    min-height: 100%;
     background-size: cover;
     margin-top: 23%;
-    border-image-repeat: repeat;
-    overflow: hidden;
+    background-repeat: repeat !important;
+    margin: 0;
   }
 
   .up {
     z-index: 1;
     position: absolute;
-    top: -10%;
-    left: 41%;
-    font-size: 4rem;
+    top: -6%;
+    left: 43.5%;
+    font-size: 3rem;
   }
 
   .down {
     z-index: 1;
     position: absolute;
     top: 97%;
-    left: 41%;
-    font-size: 4rem;
+    left: 43.5%;
+    font-size: 3rem;
   }
 }
 
