@@ -66,6 +66,7 @@ export default function Projects() {
   };
 
   const [version, setVersion] = useState(cardInfo.map(renderCard));
+  const [verify, setVerify] = useState(false);
 
 
   return (
@@ -73,11 +74,11 @@ export default function Projects() {
       <div className="project-parent">
         <div className="project-details">
             <div>
-                <h1 style={{color: 'white'}} className="up" onClick={() => setVersion(cardInfo.map(renderCard))}>▲</h1>
+                <h1 style={{color: 'white'}} className={verify ? "up" : "up-active"} onClick={() => (setVersion(cardInfo.map(renderCard)), setVerify(false))}>▲</h1>
             </div>
             {version}
             <div>
-                <h1 style={{color: 'white'}} className="down" onClick={() => setVersion(cardInfo2.map(renderCard))}>▼</h1>
+                <h1 style={{color: 'white'}} className={verify ? "down-active" : "down"} onClick={() => (setVersion(cardInfo2.map(renderCard)), setVerify(true))}>▼</h1>
             </div>
         </div>
       </div>
