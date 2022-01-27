@@ -38,6 +38,10 @@
   font-size: 4rem;
 }
 
+.up:hover {
+  transform: scale(1.1);
+}
+
 .up-active {
   z-index: 1;
   position: absolute;
@@ -53,6 +57,10 @@
   top: 120%;
   left: 47.5%;
   font-size: 4rem;
+}
+
+.down:hover {
+  transform: scale(1.1);
 }
 
 .down-active {

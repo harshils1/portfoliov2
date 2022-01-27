@@ -29,25 +29,19 @@ export default function Projects() {
 
   const cardInfo2 = [
     {
-      image: ""/*"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Sudoku_Puzzle_by_L2G-20050714_standardized_layout.svg/1200px-Sudoku_Puzzle_by_L2G-20050714_standardized_layout.svg.png"*/,
-      title: "More Coming Soon...",
-      text: "Gihub Below",
+      title: "Project X",
+      text: "Coming Soon...",
       link: "https://github.com/harshils1/",
-      className: "1"
     },
     {
-      image: ""/*"https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/8a/d44cb0e61c11e58ef2e3befd7c195d/websiteweekend.png?auto=format%2Ccompress&dpr=1"*/,
-      title: "More Coming Soon...",
-      text: "Gihub Below",
+      title: "Project Y",
+      text: "Coming Soon...",
       link: "https://github.com/harshils1/",
-      className: "id2"
     },
     {
-      image: ""/*"https://www.acurite.com/media/catalog/product/cache/c1e9ab0486932534a7d741d10c346ab0/0/1/01535--hi-res_2021.jpg"*/,
-      title: "More Coming Soon...",
-      text: "Gihub Below",
+      title: "Project Z",
+      text: "Coming Soon...",
       link: "https://github.com/harshils1/",
-      className: "3"
     },
   ];
 
@@ -55,7 +49,6 @@ export default function Projects() {
   const renderCard = (card) => {
     return (
       <Card style={{ width: "20rem" , background: "black", border: "2px solid white"}} className='card' >
-        <Card.Img variant="top" src={card.image} />
         <Card.Body>
           <Card.Title style={{color: "white"}}>{card.title}</Card.Title>
           <Card.Text style={{color: "white"}}>{card.text}</Card.Text>
