@@ -36,11 +36,22 @@
   border-left: 6px solid rgb(255, 255, 255);
   height: 80%;
   position: absolute;
-  left: 68%;
+  left: 66.4%;
   margin-left: -3px;
   top: 40px;
 }
 
+.paragraph {
+  margin: 10%;
+}
+
+.paragraph1 {
+  margin: 12%;
+}
+
+.smallp {
+  font-size: 12px;
+}
 .aboutme {
   margin-top: 20px;
   float: left;
