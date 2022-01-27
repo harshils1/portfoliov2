@@ -11,3 +11,39 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.about-details {
+  position: fixed;
+  top: 22%;
+  left: 5%;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 70%;
+  width: 90%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.vl1 {
+  border-left: 6px solid rgb(255, 255, 255);
+  height: 80%;
+  position: absolute;
+  left: 33%;
+  margin-left: -3px;
+  top: 40px;
+}
+
+.vl2 {
+  border-left: 6px solid rgb(255, 255, 255);
+  height: 80%;
+  position: absolute;
+  left: 68%;
+  margin-left: -3px;
+  top: 40px;
+}
+
+.aboutme {
+  margin-top: 20px;
+  float: left;
+  width: 33.33%;
+  color: white;
+}
