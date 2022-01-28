@@ -23,6 +23,56 @@
   border-radius: 10px;
 }
 
+.square1 {
+  cursor: pointer;
+  position: fixed;
+  top: 28%;
+  left: 7%;
+  background-color: rgb(11, 83, 177);
+  height: 58%;
+  width: 26%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.square1:hover,
+.square2:hover,
+.square3:hover {
+  transform: scale(1.02);
+}
+
+.square2 {
+  cursor: pointer;
+  position: fixed;
+  top: 28%;
+  left: 36.7%;
+  background-color: rgb(11, 83, 177);
+  height: 58%;
+  width: 26%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.square3 {
+  cursor: pointer;
+  position: fixed;
+  top: 28%;
+  left: 66.7%;
+  background-color: rgb(11, 83, 177);
+  height: 58%;
+  width: 26%;
+  border: 5px solid white;
+  border-radius: 10px;
+}
+
+.headers {
+  margin-top: 46%;
+}
+
+.square-none {
+  display: none;
+}
+
 .vl1 {
   border-left: 6px solid rgb(255, 255, 255);
   height: 80%;
@@ -42,11 +92,15 @@
 }
 
 .paragraph {
-  margin: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 16%;
 }
 
 .paragraph1 {
-  margin: 12%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 22%;
 }
 
 .smallp {
