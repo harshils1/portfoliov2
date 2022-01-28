@@ -48,7 +48,7 @@ export default function AboutMe() {
               </p>
             </p>
           </div>
-          <div className="vl2"></div>
+          <div className="vl2"></div>  
           <div className="aboutme">
             <div className={version3 ? "square3" : "square-none"} onClick={() => setVersion3(false)}>
             <h2 className="headers">Awards</h2>
