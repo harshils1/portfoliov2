@@ -1,0 +1,15 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  min-height: fit-content;
+  height: 85.2vh;
+  max-height: max-content;
+  background-size: cover;
+  background-image: url("../../assets//Home/home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}

@@ -91,7 +91,8 @@
   top: 40px;
 }
 
-.paragraph {
+.paragraph2,
+.paragraph3 {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 16%;
@@ -126,32 +127,43 @@
     border: 5px solid white;
     border-radius: 10px;
     text-align: center;
-  }
-
-  .aboutme {
-    display: flex;
-    flex-direction: column;
-    row-gap: 25px;
-    min-height: 100%;
-    background-size: cover;
-    margin: 1;
-    margin-top: 20px;
-    width: 20%;
-    color: white;
-  }
-
-  .headers {
-    margin-top: 7%;
-  }
-
-  .paragraph {
     display: none;
   }
 
+  .about-details {
+    position: fixed;
+    top: 22%;
+    left: 5%;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 90%;
+    border: 5px solid white;
+    border-radius: 10px;
+  }
+
+  .headers {
+    margin-top: 17%;
+  }
+
+  .paragraph2 {
+    margin-left: -82%;
+    font-size: 13px;
+    margin-top: 160%;
+    width: 264%;
+  }
+
+  .paragraph3 {
+    margin-left: -180%;
+    font-size: 13px;
+    margin-top: 400%;
+    width: 264%;
+  }
+
   .paragraph1 {
-    margin-left: 95%;
-    margin-top: -30%;
-    width: 100%;
+    margin-left: 20%;
+    font-size: 13px;
+    margin-top: 10%;
+    width: 264%;
   }
 
   .vl1,
@@ -160,10 +172,30 @@
   }
 
   .square2 {
+    cursor: pointer;
+    position: fixed;
+    top: 48%;
+    left: 10%;
+    background-color: rgb(9, 68, 145);
+    height: 18%;
+    width: 80%;
+    border: 5px solid white;
+    border-radius: 10px;
+    text-align: center;
     display: none;
   }
 
   .square3 {
+    cursor: pointer;
+    position: fixed;
+    top: 71%;
+    left: 10%;
+    background-color: rgb(9, 68, 145);
+    height: 18%;
+    width: 80%;
+    border: 5px solid white;
+    border-radius: 10px;
+    text-align: center;
     display: none;
   }
 }

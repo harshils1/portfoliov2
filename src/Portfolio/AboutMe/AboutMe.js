@@ -15,7 +15,7 @@ export default function AboutMe() {
             <div className={version ? "square1" : "square-none"} onClick={() => setVersion(false)}>
               <h2 className='headers'>Who Am I?</h2>
               </div>
-            <p className="paragraph1">
+            <p className="paragraph1" onClick={() => setVersion(true)}>
               Hey everyone, this is Harshil! I am currently a first-year
               computer engineering student at University of Waterloo, presently
               in my co-op term interning as a Junior Data Engineer at
@@ -28,7 +28,7 @@ export default function AboutMe() {
             <div className={version2 ? "square2" : "square-none"} onClick={() => setVersion2(false)}>
             <h2 className="headers">Experience</h2>
             </div>
-            <p className="paragraph">
+            <p className="paragraph2" onClick={() => setVersion2(true)}>
               Junior Data Engineer | 2022
               <br></br>
               <br></br>
@@ -53,7 +53,7 @@ export default function AboutMe() {
             <div className={version3 ? "square3" : "square-none"} onClick={() => setVersion3(false)}>
             <h2 className="headers">Awards</h2>
             </div>
-            <p className="paragraph">
+            <p className="paragraph3" onClick={() => setVersion3(true)}>
               $1500 Ministry of Education Grant
               <br></br>
               <br></br>
@@ -76,3 +76,4 @@ export default function AboutMe() {
     </div>
   );
 }
+
