@@ -136,7 +136,7 @@
 
   .about-details {
     position: absolute;
-    top: 15%;
+    top: 18%;
     left: 5%;
     background-color: rgba(0, 0, 0, 0.4);
     height: 90%;
@@ -159,7 +159,7 @@
   .paragraph3 {
     margin-left: -180%;
     font-size: 13px;
-    margin-top: 400%;
+    margin-top: 422%;
     width: 264%;
   }
 
