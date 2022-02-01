@@ -7,6 +7,18 @@ export default function Profile() {
   const [resume, setResume] = useState('resumé');
   const[pic, setPic] = useState(false);
 
+  const changeResume = () => {
+    resume = setResume('coming soon...');
+    const timer = setTimeout(changeDownloading, 2000);
+  }
+
+  const changeDownloading = () => {
+    resume = setResume('resumé');
+  }
+
+
+
+
   return (
     <div className="profile-container">
       <div className="profile-parent">
@@ -48,7 +60,7 @@ export default function Profile() {
           </div>
           <div className="profile-options">
             <a /*href="resume.pdf" download="resume.pdf"*/ target="_blank">  
-                    <button className='btn highlighted-btn' onClick={() => /*setResume('downloading...')*/ setResume('coming soon...')}>{resume}</button>
+                    <button className='btn highlighted-btn' onClick={changeResume}>{resume}</button>
             </a>
           </div>
         </div>
