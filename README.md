@@ -1,4 +1,4 @@
-# Harshil Shah's Portfolio v2:
+# Portfolio v2:
 
 Hey everyone! You chose to read about my web portfolio repo! Below are some details if you would like to know more about the development process:
 
